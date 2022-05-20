@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600&family=Poppins:wght@300;500;600;800&display=swap');
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+p.faintTitles{
+    color: gray
+}
+h2.boldTitles{
+    font-size: 54px;
+
+}
+
+.nav-list {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    background-color: white;
+    top:-3%;
+    width: 97%;
+    z-index: 1;
+    text-decoration:none;
+
+    padding-right: 35px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    list-style: none;
+}
+.dropdown {
+    float:left;
+    overflow:hidden;
+}
+.dropdownContent {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.dropdownContent a{
+    float:none;
+}
+.dropdownContent a:hover{
+    background-color: white;
+}
+.dropdown:hover .dropdownContent{
+    display: block;
+}
+.landingPage {
+    display: flex;    
+    position: relative;
+    text-align:center;
+    color: white;
+    width: 100%;
+    height: auto;
+}
+.landingPageContainer{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 30%;
+    width: 30%;
+    height: auto;
+}
+#featuredIn{
+    gap: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+    height: 50px;    
+}
+
+.howItWorks1{
+    display: block;
+    gap: 2rem;
+    width: 1px;
+    height: 1px; 
+}
+.howItWorks2{
+    gap: 2rem;
+    display: flex; 
+    flex: 1;
+    justify-content: row;
+    border: 50px black;
+    gap: 2rem;
+  
+}
+    
+/* .Match{
+    width: 33.333333333%;
+    display: flex;
+    flex: 1;
+}
+
+.Manage{
+    width: 33.333333333%;
+    display: flex;
+    flex: 1;
+}
+.Marvel{
+    width: 33.33333333%;
+    display: flex;
+    flex: 1;
+}
+ */
+
