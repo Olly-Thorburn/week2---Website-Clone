@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600&family=Poppins:wght@300;500;600;800&display=swap');
+
+
+* {
+/* ::before
+::after  */
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    text-decoration:none;
+    list-style: none;
+}
+
+p.faintTitles{
+    color: gray;
+    text-align:center;
+}
+h2.boldTitles{
+    font-size: 54px;
+}
+.nav-list .box{
+    color: slategray;
+    font-size: smaller;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    position: fixed;
+    justify-content: space-between;
+    background-color: white;
+    top:-3%;
+    width: 100%;
+    z-index: 1;
+    gap: 1em;
+
+    padding-right: 35px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+.nav-list .box{
+    color: slategray;
+    font-size: smaller;
+}
+.nav-list li:nth-of-type(2){
+    margin-left: auto;
+}
+.nav-list li:nth-of-type(8){
+    margin-left: auto;
+}
+
+
+.dropdown {
+    float:left;
+    overflow:hidden;
+}
+.dropdownContent {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.dropdownContent a{
+    float:none;
+}
+.dropdownContent a:hover{
+    background-color: white;
+}
+/* .dropdown:hover .dropdownContent{
+    display: block;
+} */
+
+.landingPage {
+    display: flex;    
+    position: relative;
+    text-align:center;
+    color: white;
+    width: 100%;
+    height: auto;
+}
+.landingPageContainer{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 30%;
+    width: 30%;
+    height: auto;
+    flex-shrink: 1;
+}
+#featuredIn{
+    gap: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: auto;
+    height: 50px;
+    gap: 3rem;    
+}
+
+.howItWorks1{
+    padding-top: 30px;    
+}
+
+.howItWorks2{
+    display: flex; 
+    justify-content: center;
+    flex: 1;
+    border: 50px black;
+    gap: 2rem; 
+    margin-left: auto;
+    margin-right: auto;
+}
+p.howItWorks2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 33.3333%;
+}
+.howItWorks2 img {
+    width: 350px;
+}
+
+.whyChooseHousekeep img{
+    padding-top: 30px;  
+    width: 100%;
+    height: auto;
+}
+
+.howDifferent{
+    display: flex;
+}
+.howDifferent ul li::before{
+    content: '✓';
+  }
+
+
+.EqualBoxes img{
+    max-width: 200px;
+  }
+.EqualBoxes{
+    display:flex;
+    flex-wrap: no-wrap;
+    justify-content: center;
+    width:100%;
+}
+.EqualBoxes ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+}
+.EqualBoxes ul li::before{
+    content: '✓ ';
+  }
+
+.extra p.faintTitles{
+    color:aqua
+}
+.extra{
+    background: blue;
+    color: white;
+    display: flex;
+}
+
+.extraText{
+    max-width: 70%;
+}
+
+.extra img{
+    max-width: 240px;
+    height: auto;
+    display: flex;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+/* .aboutReview{
+    display: flex;
+} */
+
+.trusty4{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 350px;
+    height: auto;
+}
+.trusty4 ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#Fiona{
+    max-width: 900px;
+    height:auto;
+}
+
+
+
+.aboutReview img{
+    max-width: 100%;
+}
+
+.support{
+    margin: auto;
+}
+
+.liveChat{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.flexTrades img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 200px;
+}
+
+.flexTrades ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Download {
+    box-sizing: border-box;
+    width: 1200px;
+    height: 400px;
+    color: white;
+    background-color: blue;
+    display: flex;
+}
+.Download h2,p{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.Download img{
+    max-width: 250px;
+}
